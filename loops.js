@@ -25,6 +25,7 @@ function doWhileLoop(array) {
   }
   do {
     console.log("I run once regardless.");
+    array.shift();
   } while (incrementVariable() < i);
   return array
 }
